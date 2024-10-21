@@ -1,0 +1,13 @@
+<svg width="947" height="798" viewBox="0 0 947 798" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="2.5" y="2.5" width="942" height="793" fill="white" stroke="black" stroke-width="5"/>
+<rect x="57.3549" y="48.3549" width="887.29" height="747.29" fill="white" stroke="black" stroke-width="4.70976"/>
+<rect x="71.3178" y="60.3178" width="873.364" height="735.364" fill="white" stroke="black" stroke-width="4.63569"/>
+<path d="M250.382 308.906L534.36 120.158C537.454 118.101 541.453 117.999 544.649 119.895L863.262 308.906" stroke="black" stroke-width="9.67276"/>
+<mask id="path-5-inside-1_329_5234" fill="white">
+<rect x="229.5" y="304.669" width="667.212" height="338.331" rx="3.78024"/>
+</mask>
+<rect x="229.5" y="304.669" width="667.212" height="338.331" rx="3.78024" fill="white" stroke="black" stroke-width="14.6173" mask="url(#path-5-inside-1_329_5234)"/>
+<rect x="297.418" y="348.016" width="531.375" height="249.748" fill="white" stroke="black" stroke-width="7.30863"/>
+<path d="M543.967 129.082L487.252 125.279L490.049 111.084L543.967 129.082Z" fill="black"/>
+<ellipse cx="491.135" cy="118.263" rx="18.7515" ry="8.02728" transform="rotate(-60.2516 491.135 118.263)" fill="black"/>
+</svg>
