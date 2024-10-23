@@ -4,6 +4,7 @@
 body {
   font-family: "Halvar Mittelschrift DEMO";
 }
+
 .section-1 h1 {
   font-style: normal;
   font-weight: 900;
@@ -48,86 +49,190 @@ body {
   position: absolute;
 }
 
-/*  
-.star {
-  position: absolute;
-  left: 20px;
-}
-*/
-
-/* Текст уползает вниз в браузере, норм или стрем? */
-
-/* .section-2 h1 {
-  font-style: normal;
-  font-weight: 300;
-  font-size: 180px;
-  margin-top: 311px;
-  margin-left: 218px;
-  position: absolute;
-  line-height: 100px;
-}
 .section-2 {
   width: 100%;
-  height: 870px;
+  position: relative;
+}
+.ramka {
+  width: 1010px;
+  height: 798px;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+  margin-left: 500px;
+  margin-top: 30px;
+}
+.ramka-2 {
+  width: 960px;
+  height: 744px;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.ramka-3 {
+  width: 945px;
+  height: 730px;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.verevka {
+  width: 612px;
+}
+.kartina {
+  width: 667px;
+  height: 338px;
+  border: 5px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
-  position: relative;
 }
-.section-2 img {
-  position: absolute;
+.kartina-ramka {
+  width: 536px;
+  height: 257px;
+  border: 5px solid black;
 }
-.back2 {
-  background-image: url("../images/back2.svg");
-  width: 1422px;
-  height: 869px;
-} */
-
-.section-2 {
-  width: 100%;
-  height: 870px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  position: relative;
-}
-.section-2 img {
-  position: absolute;
-}
-.door {
-  position: absolute;
-}
-.shelf {
-  left: -20px;
-  top: 150px;
-  position: absolute;
-}
-.section-2 h1 {
+.kartina-ramka h1 {
   font-style: normal;
   font-weight: 300;
   font-size: 180px;
-  margin-top: 311px;
-  margin-left: 218px;
-  position: absolute;
   line-height: 100px;
+  text-align: center;
+  margin-top: 40px;
+}
+.kartina-ramka h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 100px;
+  text-align: center;
+}
+.papki {
+  width: 869px;
+  height: 635px;
+  position: absolute;
+  left: 0;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.papki div:nth-of-type(1) {
+  width: 767px;
+  height: 150px;
+  background-image: url("../images/papki-1.svg");
+}
+.papki div:nth-of-type(2) {
+  width: 692px;
+  height: 110px;
+  background-image: url("../images/papki-2.svg");
+  margin-left: 60px;
+  margin-top: -4px;
+}
+.papki div:nth-of-type(3) {
+  width: 667px;
+  height: 117px;
+  background-image: url("../images/papki-3.svg");
+  margin-top: -2px;
+}
+.papki div:nth-of-type(4) {
+  width: 667px;
+  height: 115px;
+  background-image: url("../images/papki-4.svg");
+  margin-left: -130px;
+  margin-top: -2px;
+}
+.papki div:nth-of-type(5) {
+  width: 850px;
+  height: 250px;
+  background-image: url("../images/papki-5.svg");
+}
+.papki div:nth-of-type(2) p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100px;
+  text-align: center;
+}
+.papki div:nth-of-type(3) p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100px;
+  text-align: center;
+}
+.papki div:nth-of-type(4) p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100px;
+  text-align: center;
 }
 
 .section-3 {
   width: 100%;
-  height: 870px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
   position: relative;
 }
-.section-3 img {
-  position: absolute;
-}
 .dj {
-  top: 0px;
-  left: 10px;
-  position: absolute;
+  width: 1398px;
+  height: 940px;
+  background-image: url("../images/dj.svg");
+  margin-top: 100px;
+  margin-left: 120px;
+}
+.dj p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100px;
+  text-align: right;
+
+  /* опустить текст в нужное место*/
+}
+
+.section-4 {
+  width: 100%;
+}
+.section-4 h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: left;
+  margin-top: 100px;
+}
+.peace {
+  width: 495px;
+  height: 705px;
+  background-image: url("../images/peace.svg");
+  margin-top: 50px;
+}
+.rollers {
+  width: 450px;
+  height: 416px;
+  background-image: url("../images/rollers.svg");
+  margin-top: 10px;
+}
+.dlcontroller {
+  width: 816px;
+  height: 787px;
+  background-image: url("../images/djcontroller.svg");
+  margin-top: 150px;
+  margin-left: 300px;
+}
+
+.section-5 {
+  width: 100%;
+  position: relative;
+}
+.cassete {
+  width: 702px;
+  margin-left: 400px;
+  margin-top: 50px;
 }
