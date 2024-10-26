@@ -113,7 +113,7 @@ body {
   text-align: center;
 }
 .papki {
-  width: 869px;
+  width: 867px;
   height: 635px;
   position: absolute;
   left: 0;
@@ -130,28 +130,29 @@ body {
 }
 .papki div:nth-of-type(2) {
   width: 692px;
-  height: 110px;
+  height: 94px;
   background-image: url("../images/papki-2.svg");
   margin-left: 60px;
-  margin-top: -4px;
+  margin-top: -21px;
 }
 .papki div:nth-of-type(3) {
   width: 667px;
-  height: 117px;
+  height: 105px;
   background-image: url("../images/papki-3.svg");
-  margin-top: -2px;
+  margin-top: -4px;
 }
 .papki div:nth-of-type(4) {
   width: 667px;
-  height: 115px;
+  height: 103px;
   background-image: url("../images/papki-4.svg");
   margin-left: -130px;
-  margin-top: -2px;
+  margin-top: -8px;
 }
 .papki div:nth-of-type(5) {
   width: 850px;
-  height: 250px;
+  height: 215px;
   background-image: url("../images/papki-5.svg");
+  margin-top: -2px;
 }
 .papki div:nth-of-type(2) p {
   font-style: normal;
@@ -180,21 +181,22 @@ body {
   position: relative;
 }
 .dj {
-  width: 1398px;
-  height: 940px;
-  background-image: url("../images/dj.svg");
+  width: 300px;
+  height: 540px;
+  background-image: url("../images/dj.png");
   margin-top: 100px;
-  margin-left: 120px;
+  padding-top: 200px;
+  padding: 700px;
 }
 .dj p {
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 100px;
-  text-align: right;
-
-  /* опустить текст в нужное место*/
+  line-height: 27px;
+  width: 360px;
+  margin-left: 150px;
 }
+/* как убрать лишнюю часть картинки снизу? */
 
 .section-4 {
   width: 100%;
@@ -206,18 +208,7 @@ body {
   line-height: 100px;
   text-align: left;
   margin-top: 100px;
-}
-.peace {
-  width: 495px;
-  height: 705px;
-  background-image: url("../images/peace.svg");
-  margin-top: 50px;
-}
-.rollers {
-  width: 450px;
-  height: 416px;
-  background-image: url("../images/rollers.svg");
-  margin-top: 10px;
+  margin-left: 50px;
 }
 .dlcontroller {
   width: 816px;
@@ -226,6 +217,15 @@ body {
   margin-top: 150px;
   margin-left: 300px;
 }
+.peace {
+  width: 478px;
+  height: 695px;
+}
+.rollers {
+  width: 457px;
+  height: 438px;
+}
+/* нужно каким-то образом передвинуть роллеры и сделать так, чтобы появился контроллер */
 
 .section-5 {
   width: 100%;
@@ -243,6 +243,7 @@ body {
   line-height: 40px;
   text-align: left;
 }
+/* нужно сдвинуть осовной текст влево и добавить подписи в нужных местах к картинке */
 
 .section-6 {
   width: 100%;
@@ -264,7 +265,8 @@ body {
 }
 .kartinka-albums {
   width: 100%;
-  margin-top: -200px;
+  margin-top: -30px;
+  margin-left: 30px;
 }
 .albums p {
   font-style: normal;
@@ -272,3 +274,4 @@ body {
   font-size: 36px;
   line-height: 40px;
 }
+/* как прописать текст сверху и подвинуть его на картинке: текстам задать класс, пэддинг или флекс бокс */
