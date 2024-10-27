@@ -245,7 +245,7 @@ body {
   width: 816px;
   height: 787px;
   position: relative;
-  left: 50px;
+  padding-left: 400px;
   top: 4450px;
 }
 .peace {
@@ -299,28 +299,30 @@ body {
   position: absolute;
   margin-top: 140px;
   margin-left: 950px;
-  /* надо сделать в одну строку текст */
 }
 .cassete div:nth-of-type(4) p {
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
   line-height: 30px;
+  width: 196px;
+  height: 64px;
   text-align: center;
   position: absolute;
   margin-top: 675px;
-  margin-left: 420px;
+  margin-left: 360px;
 }
 .cassete div:nth-of-type(5) p {
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
   line-height: 30px;
+  width: 196px;
+  height: 64px;
   text-align: center;
   position: absolute;
   margin-top: 680px;
-  margin-left: 620px;
-  /* надо сделать строки в соотвествии с макетом */
+  margin-left: 560px;
 }
 .cassete div:nth-of-type(6) p {
   font-style: normal;
@@ -348,9 +350,10 @@ body {
   font-size: 28px;
   line-height: 30px;
   margin-top: 300px;
+  width: 267px;
   position: absolute;
-  margin-top: 770px;
-  margin-left: 700px;
+  margin-top: 750px;
+  margin-left: 640px;
 }
 .cassete div:nth-of-type(9) p {
   font-style: normal;
@@ -407,7 +410,7 @@ body {
   width: 560px;
   height: 143px;
   border: 4px solid black;
-  color: rgb(255, 255, 255);
+  background: #FFFFF;
   margin-left: 50px;
   margin-top: -150px;
   position: relative;
