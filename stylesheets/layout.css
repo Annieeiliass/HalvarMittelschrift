@@ -401,24 +401,22 @@ body {
   position: absolute;
   margin-top: 200px;
 }
-/* как текст сделать поверх изображения здесь и выровнять по нужному расстоянию? */
 
 .section-7 {
   width: 100%;
 }
 .kartinka-text {
   width: 560px;
-  height: 143px;
+  height: 103px;
   border: 4px solid black;
-  background: #FFFFF;
+  background-color: white;
   margin-left: 50px;
-  margin-top: -150px;
+  margin-top: -140px;
   position: relative;
-  /* как закрасить бордер и спрятать нижнюю линию за нижнее изображение? */
 }
 .kartinka-albums {
-  width: 100%;
-  margin-top: 115px;
+  width: 1480px;
+  margin-top: 100px;
   margin-left: 30px;
   position: absolute;
 }
@@ -428,8 +426,8 @@ body {
   font-size: 96px;
   line-height: 40px;
   position: relative;
-  margin-left: 60px;
-  margin-top: -100px;
+  margin-left: 65px;
+  margin-top: -70px;
 }
 .klass p {
   font-style: normal;
@@ -439,7 +437,7 @@ body {
   text-align: center;
   position: relative;
   margin-top: 105px;
-  left: -350px;
+  left: -360px;
 }
 .pryamo p {
   font-style: normal;
@@ -448,7 +446,7 @@ body {
   line-height: 30px;
   text-align: center;
   position: relative;
-  margin-top: 60px;
+  margin-top: 50px;
   left: -600px;
 }
 .naklon p {
@@ -459,7 +457,7 @@ body {
   text-align: center;
   position: relative;
   margin-top: -150px;
-  left: 130px;
+  left: 110px;
 }
 .extra-naklon p {
   font-style: oblique;
@@ -468,8 +466,8 @@ body {
   line-height: 30px;
   text-align: center;
   position: relative;
-  margin-top: 0px;
-  left: 600px;
+  margin-top: 5px;
+  left: 570px;
 }
 .pravda-super p {
   font-style: normal;
@@ -479,7 +477,7 @@ body {
   text-align: center;
   position: relative;
   margin-top: 60px;
-  left: 455px;
+  left: 430px;
 }
 
 .Hairline p {
@@ -489,7 +487,7 @@ body {
   line-height: 30px;
   position: relative;
   margin-top: 90px;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 .Extra-Thin p {
   font-style: normal;
@@ -497,7 +495,7 @@ body {
   font-size: 40px;
   position: relative;
   margin-top: 5px;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 .Thin p {
   font-style: normal;
@@ -505,7 +503,7 @@ body {
   font-size: 40px;
   position: relative;
   margin-top: 5px;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 .Light p {
   font-style: normal;
@@ -513,7 +511,7 @@ body {
   font-size: 40px;
   position: relative;
   margin-top: 5px;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 .Regular p {
   font-style: normal;
@@ -521,7 +519,7 @@ body {
   font-size: 40px;
   position: relative;
   margin-top: 5px;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 .Medium p {
   font-style: normal;
@@ -529,7 +527,7 @@ body {
   font-size: 40px;
   position: relative;
   margin-top: 5px;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 .Bold p {
   font-style: normal;
@@ -537,7 +535,7 @@ body {
   font-size: 40px;
   position: relative;
   margin-top: 5px;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 .Extra-Bold p {
   font-style: normal;
@@ -545,7 +543,7 @@ body {
   font-size: 40px;
   position: relative;
   margin-top: 5px;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 .Black p {
   font-style: normal;
@@ -553,7 +551,7 @@ body {
   font-size: 40px;
   position: relative;
   margin-top: 5px;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 
 .Hairline-Slanted p {
@@ -562,14 +560,14 @@ body {
   font-size: 40px;
   position: relative;
   margin-top: -390px;
-  margin-left: 560px;
+  margin-left: 555px;
 }
 .Extra-Thin-Slanted p {
   font-style: italic;
   font-weight: 250;
   font-size: 40px;
   position: relative;
-  margin-left: 560px;
+  margin-left: 555px;
   margin-top: 5px;
 }
 .Thin-Slanted p {
@@ -577,7 +575,7 @@ body {
   font-weight: 275;
   font-size: 40px;
   position: relative;
-  margin-left: 560px;
+  margin-left: 555px;
   margin-top: 5px;
 }
 .Light-Slanted p {
@@ -585,7 +583,7 @@ body {
   font-weight: 300;
   font-size: 40px;
   position: relative;
-  margin-left: 560px;
+  margin-left: 555px;
   margin-top: 5px;
 }
 .Regulart-Slanted p {
@@ -593,7 +591,7 @@ body {
   font-weight: 400;
   font-size: 40px;
   position: relative;
-  margin-left: 560px;
+  margin-left: 555px;
   margin-top: 5px;
 }
 .Medium-Slanted p {
@@ -601,7 +599,7 @@ body {
   font-weight: 500;
   font-size: 40px;
   position: relative;
-  margin-left: 560px;
+  margin-left: 555px;
   margin-top: 5px;
 }
 .Bold-Slanted p {
@@ -609,7 +607,7 @@ body {
   font-weight: 700;
   font-size: 40px;
   position: relative;
-  margin-left: 560px;
+  margin-left: 555px;
   margin-top: 5px;
 }
 .Extra-Bold-Slanted p {
@@ -617,7 +615,7 @@ body {
   font-weight: 800;
   font-size: 40px;
   position: relative;
-  margin-left: 560px;
+  margin-left: 555px;
   margin-top: 5px;
 }
 .Black-Slanted p {
@@ -625,7 +623,7 @@ body {
   font-weight: 900;
   font-size: 40px;
   position: relative;
-  margin-left: 560px;
+  margin-left: 555px;
   margin-top: 5px;
 }
 
@@ -634,7 +632,7 @@ body {
   font-weight: 200;
   font-size: 40px;
   position: relative;
-  margin-left: 1075px;
+  margin-left: 1055px;
   margin-top: -400px;
 }
 .Extra-Thin-SuperSlanted p {
@@ -642,7 +640,7 @@ body {
   font-weight: 250;
   font-size: 40px;
   position: relative;
-  margin-left: 1075px;
+  margin-left: 1055px;
   margin-top: 5px;
 }
 .Thin-SuperSlanted p {
@@ -650,7 +648,7 @@ body {
   font-weight: 275;
   font-size: 40px;
   position: relative;
-  margin-left: 1075px;
+  margin-left: 1055px;
   margin-top: 5px;
 }
 .Light-SuperSlanted p {
@@ -658,7 +656,7 @@ body {
   font-weight: 300;
   font-size: 40px;
   position: relative;
-  margin-left: 1075px;
+  margin-left: 1055px;
   margin-top: 5px;
 }
 .Regular-SuperSlanted p {
@@ -666,7 +664,7 @@ body {
   font-weight: 400;
   font-size: 40px;
   position: relative;
-  margin-left: 1075px;
+  margin-left: 1055px;
   margin-top: 5px;
 }
 .Medium-SuperSlanted p {
@@ -674,7 +672,7 @@ body {
   font-weight: 500;
   font-size: 40px;
   position: relative;
-  margin-left: 1075px;
+  margin-left: 1055px;
   margin-top: 5px;
 }
 .Bold-SuperSlanted p {
@@ -682,7 +680,7 @@ body {
   font-weight: 600;
   font-size: 40px;
   position: relative;
-  margin-left: 1075px;
+  margin-left: 1055px;
   margin-top: 5px;
 }
 .Extra-Bold-SuperSlanted p {
@@ -690,7 +688,7 @@ body {
   font-weight: 800;
   font-size: 40px;
   position: relative;
-  margin-left: 1075px;
+  margin-left: 1055px;
   margin-top: 5px;
 }
 .Black-SuperSlanted p {
@@ -698,7 +696,7 @@ body {
   font-weight: 900;
   font-size: 40px;
   position: relative;
-  margin-left: 1075px;
+  margin-left: 1055px;
   margin-top: 5px;
 }
 
@@ -710,13 +708,13 @@ body {
   font-weight: 700;
   font-size: 96px;
   text-align: right;
-  padding-top: 100px;
+  padding-top: 90px;
   padding-right: 20px;
 }
 .player {
   width: 1320px;
   height: 1740px;
-  margin-top: -200px;
+  margin-top: -205px;
   margin-left: 40px;
   position: relative;
 }
@@ -756,15 +754,14 @@ body {
 }
 
 .section-9 {
-  width: 100%;
+  width: 1440px;
   overflow: hidden;
   margin-top: 100px;
 }
-.ticket {
-  width: 1836px;
-  height: 726px;
-  position: relative;
-  margin-top: 500px;
+.ticker {
+  width: 1445px;
+  height: 1178px;
+  padding-top: 200px;
 }
 .guitar {
   width: 1432px;
