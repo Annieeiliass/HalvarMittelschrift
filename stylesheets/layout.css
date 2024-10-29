@@ -3,6 +3,12 @@
 }
 body {
   font-family: "Halvar Mittelschrift DEMO";
+  width: 100%;
+}
+section {
+  width: 1440px;
+  overflow-x: hidden;
+  margin: 0 auto;
 }
 
 .section-1 h1 {
@@ -27,12 +33,13 @@ body {
   margin-left: 170px;
 }
 .section-1 {
-  width: 100%;
+  width: 1440px;
+  overflow-x: hidden;
+  margin: 0 auto;
   height: 870px;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
   position: relative;
 }
 .section-1 img {
@@ -210,37 +217,6 @@ body {
   margin-top: 100px;
   margin-left: 50px;
 }
-.section-4 h3 {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 100px;
-  text-align: left;
-  margin-top: -450px;
-  margin-left: 700px;
-  rotate: 50%;
-  position: absolute;
-}
-.section-4 h4 {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 100px;
-  text-align: left;
-  margin-left: 500px;
-  margin-top: -250px;
-  position: absolute;
-}
-.section-4 h5 {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 100px;
-  text-align: left;
-  margin-top: 30px;
-  margin-left: 470px;
-  position: absolute;
-}
 .dlcontroller {
   width: 816px;
   height: 787px;
@@ -264,7 +240,6 @@ body {
 
 .section-5 {
   width: 100%;
-  position: relative;
 }
 .cassete {
   width: 702px;
